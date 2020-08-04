@@ -18,7 +18,7 @@ Quer ver como ta ficando? Acesse a DEMO: https://twitter-ui-clone-chi.vercel.app
 # Clone este repositório
 $ git clone git@github.com:randaltk/Twitter-UI-Clone
 
-# Depois disso, entre na pasta web e execute o comando:
+# Depois disso, entre na pasta e execute o comando:
 $ yarn start
 ```
 
