@@ -1,4 +1,3 @@
-import { RocketseatIcon } from "./../components/Tweet/styles";
 export {
   Home,
   Notifications,

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
   Container,
@@ -16,7 +16,7 @@ import {
   CommentIcon,
   RetweetIcon,
   LikeIcon,
-} from "./styles";
+} from './styles';
 
 const Tweet: React.FC = () => {
   return (
@@ -25,8 +25,10 @@ const Tweet: React.FC = () => {
         <RocketseatIcon />
         Você retweetou
       </Retweeted>
+
       <Body>
         <Avatar />
+
         <Content>
           <Header>
             <strong>Rocketseat</strong>
@@ -34,8 +36,12 @@ const Tweet: React.FC = () => {
             <Dot />
             <time>27 de jun</time>
           </Header>
+
+          {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
           <Description>Foguete não tem ré 🚀</Description>
+
           <ImageContent />
+
           <Icons>
             <Status>
               <CommentIcon />
